@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #172554;
+    min-height: 100vh;
+    padding: 25px 15px;
+}
+
+.logo {
+    color: white;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #cbd5e1;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Main Content */
+.main-content {
+    padding: 30px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    font-weight: bold;
+}
+
+.header p {
+    color: gray;
+}
+
+.search {
+    max-width: 250px;
+}
+
+/* Statistics Cards */
+.stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    height: 100%;
+}
+
+.stat-card h6 {
+    color: #64748b;
+    margin-top: 15px;
+}
+
+.stat-card h3 {
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.icon {
+    font-size: 30px;
+    color: #2563eb;
+}
+
+/* Content Cards */
+.content-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+}
+
+/* Sales Chart */
+.sales-chart {
+    height: 230px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 10px 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bar {
+    width: 45px;
+    background: #2563eb;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+
+.bar span {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: #64748b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+
+    .sidebar {
+        min-height: auto;
+    }
+
+    .sidebar a {
+        display: inline-block;
+        padding: 10px;
+        margin: 3px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .search {
+        max-width: 100%;
+    }
+}
