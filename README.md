@@ -39,7 +39,7 @@ Admin-Dashboard/
 ## Project Purpose
 The main purpose of this project is to improve my frontend development skills and gain practical experience in building responsive web interfaces using HTML, CSS, and Bootstrap.
 
-## 👩‍💻 Developer
+## Developer
 **Joshna Vayasi**
 
 
